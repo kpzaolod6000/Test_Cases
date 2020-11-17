@@ -4,5 +4,5 @@ _Trabajo de automatizar pruebas funcionales de aplicaciones web utilizando Selen
 
 ## Pre-requisitos:
 
-+Java 8+ 
-+
+__Java 8+ 
+__

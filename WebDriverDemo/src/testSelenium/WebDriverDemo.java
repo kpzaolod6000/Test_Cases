@@ -12,11 +12,12 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class WebDriverDemo /*extends TestCase*/{
+public class WebDriverDemo{
 	public int rpta;
 	@Before
 	public void TestSelenium(){
 		
+		//link
 		System.setProperty("webdriver.gecko.driver", "/home/judal/Escritorio/COMPUTACION/Cursos_2020_II/IS_II/Tasks_Selenium/geckodriver-v0.28.0-linux64/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 	      //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
@@ -56,15 +57,20 @@ public class WebDriverDemo /*extends TestCase*/{
 	      rpta = Integer.parseInt(result);
 	      
 	      driver.close();
-	      
-		//return 0;
+
 	}
 	
 	@Test
 	public void Testing() {
-		//WebDriverDemo demo = new WebDriverDemo();
 		assertEquals(50,rpta);
 		
 	}
+	
+	/*public static void main(String[] args){
+		WebDriverDemo demo = new WebDriverDemo();
+		demo.TestSelenium();
+	
+	}*/
+
 
 }

@@ -43,7 +43,7 @@ Se implemento Casos de prueba en base a https://www.tutorialspoint.com/selenium/
   ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java5.png)
 
 
-+Se implementa el scripts del tutorial seguido con algunas variaciones como por ejemplo agregar una sola línea de código para configurar las propiedades del sistema para GeckoDriver para enlazar las pruebas de Selenium con el navegador Firefox.
++ Se implementa el scripts del tutorial seguido con algunas variaciones como por ejemplo agregar una sola línea de código para configurar las propiedades del sistema para GeckoDriver para enlazar las pruebas de Selenium con el navegador Firefox.
 ```java
   public class WebDriverDemo{
 	public void TestSelenium(){

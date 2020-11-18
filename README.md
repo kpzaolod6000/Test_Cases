@@ -6,9 +6,13 @@ Trabajo de automatizar pruebas funcionales de aplicaciones web utilizando Seleni
 + Java 8+
 + Eclipse IDE, Se instalo siguiendo la guia del siguiente link https://www.eclipse.org/downloads/packages/release/mars/r/eclipse-ide-java-ee-developers
 + Selenium Web Driver,Para crear scripts que interactúen con Selenium Server o crear scripts locales de Selenium WebDriver, necesita utilizar controladores de cliente específicos de un lenguaje. En este caso se uso el lenguaje java y se descargo del siguiente link: https://www.selenium.dev/downloads/
+
 ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/unit.png)
+
 + Geckodriver,El ejecutador se descargo del siguiente link: https://github.com/mozilla/geckodriver/releases
+
 ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/unit1.png)
+
 + Configurar GeckoDriver: Se utilzo http://toolsqa.com/selenium-webdriver/how-to-use-geckodriver/
 
 ## Actividades:
@@ -16,18 +20,28 @@ Trabajo de automatizar pruebas funcionales de aplicaciones web utilizando Seleni
 Se implemento Casos de prueba en base a https://www.tutorialspoint.com/selenium/selenium_webdriver.htm: 
 
 + Primero se procedio a crear un Proyecto de tipo java
+
 ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java5.png)
+
 + Se procede a referenciar las librerias necesarias:
+
   __Librerias de Selenium Web Driver
+  
     ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java3.png)
+   
   
   __Librerias de Junit
+  
     ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java4.png)
+    
 + Librerias referenciadas	
+
 ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java2.png)
     
 + Se crea la clase WebDriverDemo.java
+
   ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java5.png)
+
 
 +Se implementa el scripts del tutorial seguido con algunas variaciones como por ejemplo agregar una sola línea de código para configurar las propiedades del sistema para GeckoDriver para enlazar las pruebas de Selenium con el navegador Firefox.
 ```java
@@ -81,7 +95,10 @@ Se implemento Casos de prueba en base a https://www.tutorialspoint.com/selenium/
 	
 	}
 ```
-+ Integrar xUnit: 
+
+
++ Integrar xUnit:
+
 La integracion ya se realizo anteriormente agreagando las librerias referenciadas al proyecto
 En este caso se procedio a modificar el scripts de la siguiente manera
 
@@ -144,9 +161,15 @@ public class WebDriverDemo{
 ```
 
 ## Resultados
+
 + Figura de la ejecucion del proyecto en modo JUnit Test
+
   ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java8.png)
+  
 + Ventana del navegador firefox
+
   ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java9.png)
+  
 + Finalmente los resultados en la izquierda se verifica que la prueba realizada del valor esperado con el resultado son iguales por lo tanto no registra ningun error
+
   ![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/java10.png)

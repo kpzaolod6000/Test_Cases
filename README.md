@@ -2,6 +2,11 @@
 
 Trabajo de automatizar pruebas funcionales de aplicaciones web utilizando Selenium Web Driver y JUnit, usando Eclipse IDE 2020-09 en Linux Ubuntu 18.04.5 LTS
 
+# Casos de Pruebas
+Modelacion de pruebas para calcular el porcentaje de numeros usando la tecnica de clases de equivalencia
+![HI](https://github.com/kpzaolod6000/Test_Cases/blob/master/image/pruebas.png)
+
+
 ## Pre-requisitos:
 + Java 8+
 + Eclipse IDE, Se instalo siguiendo la guia del siguiente link https://www.eclipse.org/downloads/packages/release/mars/r/eclipse-ide-java-ee-developers
